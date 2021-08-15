@@ -98,7 +98,8 @@ linux64:
 osx:
 	# osx/iOS only, any framework that should be included in the project
 	# ADDON_FRAMEWORKS =
-	ADDON_LIBS =
+	ADDON_LIBS = libs/librealsense2/lib/osx/usb-1.0.0.a
+	ADDON_LIBS += libs/librealsense2/lib/osx/libfw.a
 	ADDON_LIBS += libs/librealsense2/lib/osx/librealsense2.a
 	ADDON_LIBS += libs/librealsense2/lib/osx/librealsense2-gl.a
 	ADDON_LIBS += libs/librealsense2/lib/osx/librealsense-file.a
